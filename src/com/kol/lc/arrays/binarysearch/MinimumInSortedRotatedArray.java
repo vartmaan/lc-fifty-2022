@@ -26,11 +26,11 @@ public class MinimumInSortedRotatedArray {
 
 
 
-        while( left < right && nums[left] > nums[right]) {
+        while( left < right && nums[left] >= nums[right]) {
 
             int mid = left + (right-left)/2;
 
-            if(nums[mid] > nums[left]) {
+            if(nums[mid] > nums[right]) {
                 left = mid + 1;
             }else {
                 right = mid;

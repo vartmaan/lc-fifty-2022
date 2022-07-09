@@ -3,8 +3,8 @@ package com.kol.lc.arrays.binarysearch;
 public class SearchInARotatedBinarySearchArray {
 
     public static void main(String[] args) {
-        //System.out.println(findInSortedRotatedArray(new int [] {4,5,6,7,0,1,2}, 2));
-        System.out.println(findInSortedRotatedArray(new int [] {3,1}, 1));
+        System.out.println(findInSortedRotatedArray(new int [] {4,5,6,7,0,1,2}, 2));
+       // System.out.println(findInSortedRotatedArray(new int [] {3,1}, 1));
     }
 
 
