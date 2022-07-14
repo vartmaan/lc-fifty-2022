@@ -31,7 +31,7 @@ public class BinaryTreeLevelOrderTraversal {
 
 
     }
-    class TreeNode {
+   protected class TreeNode {
         Integer val;
         TreeNode left;
         TreeNode right;
