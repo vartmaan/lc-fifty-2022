@@ -8,8 +8,7 @@ public class ValidAnagram {
     public static void main(String[] args) {
         ValidAnagram object = new ValidAnagram();
         boolean res = object.isAnagram("krishna","anshirk");
-        System.out.println("Is Anagram "+res
-        );
+        System.out.println("Is Anagram "+res);
     }
 
     public boolean isAnagram(String s, String t) {
